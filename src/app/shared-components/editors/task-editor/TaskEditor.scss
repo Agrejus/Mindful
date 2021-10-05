@@ -1,0 +1,83 @@
+@import '../../../../Colors.scss';
+
+.tasks-container {
+
+    .fc.fc-media-screen {
+        width: 100%;
+    }
+
+    a,
+    a:hover,
+    a:active,
+    a:visited {
+        cursor: pointer;
+        color: $link-color !important;
+    }
+
+    .card-header-actions {
+        float: right;
+
+    }
+
+    .card {
+        margin-bottom: 15px;
+
+        .card-body {
+            label.label {
+                margin: 0;
+                font-weight: 700;
+            }
+
+            .content-container {
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .task-list-filter-container {
+        margin-bottom: 20px;
+    }
+
+    .tasks-list {
+        padding: 0 10px;
+
+        .card-header {
+
+            .card-header-title {
+                color: black;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .task-tag {
+        padding: 4px 12px;
+        border-radius: 8px;
+        background-color: $blue-green;
+        color: white;
+        margin: 3px;
+        cursor: pointer;
+    }
+
+    .task-tag-active {
+        background-color: $turquoise;
+    }
+
+    .task-tag-filter-container {
+        margin-top: 20px;
+    }
+
+    .task {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 80%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

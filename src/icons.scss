@@ -1,0 +1,73 @@
+.ico {
+    display: inline-block;
+}
+
+.ico-visual-studio {
+    background: url('../static/images/visual-studio.svg');
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    vertical-align: top;
+    background-size: 32px 32px;
+}
+
+.ico-visual-studio-color {
+    background: url('../static/images/Visual_Studio_Icon_2019.svg');
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    vertical-align: top;
+    background-size: 32px 32px;
+}
+
+.ico-visual-studio-code {
+    background: url('../static/images/Visual_Studio_Code_1.35_icon.svg');
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    vertical-align: top;
+    background-size: 32px 32px;
+}
+
+.ico-nuget {
+    background: url('../static/images/iconfinder_nuget_4691586.svg');
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    vertical-align: top;
+    background-size: 32px 32px;
+}
+
+.ico-sm {
+    height: 16px;
+    width: 16px;
+    vertical-align: top;
+    background-size: 16px 16px;
+    margin-top: 2px;
+}
+
+.ico-md {
+    height: 20px;
+    width: 20px;
+    vertical-align: top;
+    background-size: 20px 20px;
+    margin-top: 2px;
+}
+
+.ico-lg {
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    vertical-align: top;
+    background-size: 24px 24px;
+    margin-top: 2px;
+}
+
+.ico-xl {
+    height: 28px;
+    width: 28px;
+    font-size: 28px;
+    vertical-align: top;
+    background-size: 28px 28px;
+    margin-top: 2px;
+}

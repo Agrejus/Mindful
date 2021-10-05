@@ -1,0 +1,65 @@
+@import '../../../../Colors.scss';
+
+.document-editor {
+    padding-top: 0;
+    //min-height: calc(100% - 70px);
+    display: flex;
+    flex-flow: column;
+    //height: calc(100% - 70px);
+    max-height: 60%;
+
+    .editor-toolbar-button-group {
+        .btn-with-text {
+            i {
+                display: inline-block;
+                vertical-align: bottom;
+                margin-bottom: 2px;
+            }
+        }
+    }
+
+
+    .file-navigator-item {
+        cursor: pointer;
+
+        &:hover {
+            background-color: $background;
+        }
+    }
+
+    .address-bar {
+        padding: 10px 0;
+        font-size: 16px;
+
+        .address-navigation,
+        .address-link {
+            display: inline-block;
+        }
+
+        .file-navigator-path {
+            cursor: pointer;
+
+            &:hover {
+                background-color: $background;
+            }
+        }
+
+        .file-navigator {
+            padding: 3px;
+        }
+    }
+
+
+    table {
+        td:nth-child(1) {
+            min-width: 200px;
+        }
+
+        .file-name {
+            display: inline-block;
+            height: 100%;
+            vertical-align: top;
+            margin-top: 6px;
+        }
+    }
+}

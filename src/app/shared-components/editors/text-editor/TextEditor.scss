@@ -1,0 +1,23 @@
+.page-content-pane {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    .text-editor {
+        min-height: calc(100% - 70px);
+        display: flex;
+        flex-flow: column;
+        height: calc(100% - 70px);
+        padding: 5px;
+
+        textarea {
+            height: 100%;
+            width: 100%;
+            resize: none;
+            border: none;
+            outline: none;
+            cursor: text;
+        }
+    }
+}

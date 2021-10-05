@@ -1,0 +1,46 @@
+.apps-editor {
+    .app {
+        position: relative;
+        display: inline-block;
+        margin: 3px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 6px;
+        padding: 20px;
+
+        .app-close {
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            font-size: 20px;
+        }
+
+        .app-name {
+            span {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            i {
+                vertical-align: top;
+                margin-top: 6px;
+                display: inline-block;
+                margin-left: 5px;
+            }
+        }
+
+        .app-actions {
+            margin-top: 10px;
+
+            .btn-group {
+                .dropdown-menu {
+                    padding: 3px 0;
+                    font-size: 14px;
+
+                    a {
+                        padding: 2px 4px;
+                    }
+                }
+            }
+        }
+    }
+}

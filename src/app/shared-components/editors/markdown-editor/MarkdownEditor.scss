@@ -1,0 +1,40 @@
+.page-content-pane {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    .modal-body {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .react-mde  {
+        min-height: calc(100% - 70px);
+        display: flex;
+        flex-flow: column;
+        height: calc(100% - 70px);
+
+        div.editor-toolbar {
+            margin: 0;
+        }
+
+        div.editor-toolbar + div {
+            height: 100%;
+
+            div.mde-textarea-wrapper {
+
+                .mde-text {
+                    height: 100% !important;
+                }
+
+                height: calc(100% - 32px);
+            }
+        }
+
+        div.mde-preview-content pre {
+            background-color: rgba(0, 0, 0, .85);
+            border-radius: 8px;
+        }
+    }
+}

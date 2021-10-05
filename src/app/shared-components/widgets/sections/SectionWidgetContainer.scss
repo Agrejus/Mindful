@@ -1,0 +1,33 @@
+@import '../../../../Colors.scss';
+
+.section-widget-container {
+    margin-top: 5px;
+
+    .widget {
+        margin-right: 5px;
+    }
+
+    div.priority-section-widget {
+        background-color: lightgray;
+        border: 1px solid #e98683;
+    }
+}
+
+.widget {
+    border-radius: 10px;
+    background-color: #f2ffec;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #15E6CD;
+    line-height: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+    i {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    span.badge {
+        font-size: 72%;
+    }
+}

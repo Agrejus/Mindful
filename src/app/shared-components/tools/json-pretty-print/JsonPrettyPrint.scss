@@ -1,0 +1,12 @@
+.json-pretty-print {
+    height: 100%;
+
+    .pretty-container {
+        height: calc(100% - 80px);
+    }
+
+    textarea {
+        height: calc(100% - 80px) !important;
+        resize: none;
+    }
+}

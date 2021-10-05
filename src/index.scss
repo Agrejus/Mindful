@@ -1,0 +1,382 @@
+@import '../static/webfonts/all.min.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: 'Font Awesome 5 Free Solid';
+    src: url("../static/webfonts/fa-solid-900.eot");
+    src: url("../static/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+        url("../static/webfonts/fa-solid-900.woff2") format("woff2"),
+        url("../static/webfonts/fa-solid-900.woff") format("woff"),
+        url("../static/webfonts/fa-solid-900.ttf") format("truetype"),
+        url("../static/webfonts/fa-solid-900.svg#fontawesomesolid") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome'; // Needed for react date picker
+    src: url("../static/webfonts/fa-solid-900.eot");
+    src: url("../static/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+        url("../static/webfonts/fa-solid-900.woff2") format("woff2"),
+        url("../static/webfonts/fa-solid-900.woff") format("woff"),
+        url("../static/webfonts/fa-solid-900.ttf") format("truetype"),
+        url("../static/webfonts/fa-solid-900.svg#fontawesomesolid") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import '../node_modules/react-draggable-tree/lib/index.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// @import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/react-datepicker/dist/react-datepicker.min.css';
+@import './Colors.scss';
+@import './icons.scss';
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(240, 240, 240) rgb(205, 205, 205);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.k-animation-container {
+    z-index: 99999;
+}
+
+.k-multiselect-wrap {
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+
+    .k-searchbar {
+        height: inherit;
+
+        input {
+            height: 100%;
+        }
+    }
+}
+
+#root {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.icon-md {
+    font-size: 20px;
+}
+
+.icon-lg {
+    font-size: 26px;
+}
+
+i.text-success,
+button.text-success,
+span.text-success {
+    color: $light-green !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+div.card-header {
+    background-color: #b2e48d;
+}
+
+.text-edit {
+    color: darkgreen;
+}
+
+.text-delete {
+    color: #9c0000;
+}
+
+.text-default {
+    color: black;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.ico-btn {
+    margin: 0 2px;
+    padding: 0 3px;
+}
+
+.fa-name-expand {
+    margin: 0 2px;
+    padding: 0 3px;
+
+    span {
+        display: none;
+    }
+
+    &:hover {
+        span {
+            display: inline;
+        }
+    }
+}
+
+.fa-padding-fix-lg {
+    vertical-align: top;
+    padding-top: 3px;
+}
+
+.separator {
+    width: 1px;
+    background-color: rgba(0, 0, 0, .15);
+    display: inline-block;
+    height: 36px;
+    vertical-align: middle;
+    line-height: 0;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.editor-toolbar {
+    padding: 5px;
+    margin: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    margin-bottom: 20px;
+
+    .editor-toolbar-row {
+
+        .editor-toolbar-button-group {
+            display: inline-block;
+            border-radius: 4px;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            outline: none;
+            background: transparent;
+            border: none;
+            padding: 5px 8px;
+            color: $blue;
+
+            &:hover {
+                background-color: $hover;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.rotate-active {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.rotate {
+    -webkit-transition: -webkit-transform .8s ease-in-out !important;
+    transition: transform .8s ease-in-out !important;
+    display: inline-block;
+
+    &:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+button.btn-success,
+a.btn-success,
+button.btn-outline-success,
+a.btn-outline-success {
+    color: $light-green !important;
+    border-color: $light-green !important;
+
+    &:hover {
+        color: white !important;
+        background-color: $light-green !important;
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.page-container {
+    flex: 1;
+
+    .pane-content {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+
+        .panel-content {
+            flex: 1;
+
+            .pane {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.k-splitbar,
+.k-splitbar:active {
+    color: $blue;
+    background-color: $background;
+}
+
+i.bi {
+    line-height: 0;
+}
+
+.btn-icon {
+    padding: 3px !important;
+    cursor: pointer;
+}
+
+.react-contextmenu {
+    z-index: 99999;
+    border-radius: 4px;
+    padding: 4px;
+    box-sizing: initial;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px, rgba(0, 0, 0, 0.15) 0px 8px 16px;
+
+    .react-contextmenu-item {
+        padding: 8px;
+    }
+
+    .react-contextmenu-item:hover {
+        background: #f4dfff;
+    }
+}
+
+.react-datepicker-popper {
+    min-width: 350px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+a[data-link] {
+    color: $link-color !important;
+    cursor: pointer;
+}
+
+.react-datepicker-wrapper {
+
+    position: relative;
+
+    &::after {
+        font-family: "FontAwesome";
+        content: "\f073";
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+
+    width: 100%;
+
+    input {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-top-color: rgb(206, 212, 218);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(206, 212, 218);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(206, 212, 218);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(206, 212, 218);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+button.btn-xs, a.btn-xs, label.btn-xs  {
+    padding: 0px 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+label.btn {
+    margin: 0;
+}
+
+.inline-context-menu-trigger {
+    position: relative;
+    .inline-context-menu {
+        position: fixed;
+        z-index: 99999999;
+        width: auto;
+        margin-top: 5px;
+        padding: 8px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 10px, rgba(0, 0, 0, 0.16) 0px 2px 5px;
+        background-color: white;
+
+        .context-menu-item {
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            color: inherit;
+        }
+
+        .context-menu-item:hover {
+            background-color: rgb(241,241,244);
+        }
+
+    }
+}

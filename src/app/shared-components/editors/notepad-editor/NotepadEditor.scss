@@ -1,0 +1,50 @@
+@import '../../../../Colors.scss';
+
+.page-content-pane {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    .rich-text-editor {
+        flex: 1;
+        overflow-y: auto;
+        box-sizing: border-box;
+        cursor: text;
+        position: relative;
+    }
+}
+
+.notepad-editor {
+    min-height: calc(100% - 70px);
+    display: flex;
+    flex-flow: column;
+    height: calc(100% - 70px);
+
+    .k-animation-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .k-widget {
+        flex: 1;
+        overflow-y: auto;
+        box-sizing: border-box;
+        cursor: text;
+        position: relative;
+
+        .k-link {
+            color: black;
+        }
+    }
+
+    li.k-state-active::before {
+        background-color: $blue;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        content: ' ';
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+}

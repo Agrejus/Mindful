@@ -1,0 +1,56 @@
+@import '../../../../Colors.scss';
+
+.vs-editor {
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    div.modal-body {
+        overflow-y: visible;
+    }
+
+    .card-header-actions {
+        float: right;
+
+        .btn-group,
+        .ico-btn {
+            vertical-align: top;
+        }
+    }
+
+    .project-container {
+        padding: 10px;
+
+        &:hover {
+            background-color: $hover;
+        }
+
+        .actions-container {
+            float: right;
+        }
+    }
+
+    .nuget-modal {
+        .modal-body {
+            min-height: 600px;
+
+            .actions-row {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                button {
+                    margin-right: 5px;
+                }
+            }
+
+            .text-area-row {
+                height: 100%;
+
+                textarea {
+                    border: 1px solid rgb(205, 205, 205);
+                    min-height: 500px;
+                }
+            }
+        }
+    }
+}

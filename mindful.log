@@ -1,0 +1,174 @@
+10:32:14.373 INFO  App running: http://localhost:4040 
+10:35:19.824 INFO  App running: http://localhost:4040 
+10:35:19.861 INFO  App Start Error: {} 
+10:38:56.680 INFO  App running: http://localhost:4040 
+10:38:56.721 INFO  App Start Error: {} 
+10:51:27.947 INFO  App running: http://localhost:4040 
+10:58:57.822 INFO  App running: http://localhost:4040 
+12:11:46.474 INFO  open-file - Args: "https://dev.azure.com/totalauto/" 
+13:20:23.983 INFO  App running: http://localhost:4040 
+13:21:22.908 INFO  open-file - Args: "https://dev.azure.com/totalauto/" 
+13:29:52.653 INFO  App running: http://localhost:4040 
+13:37:54.024 INFO  open-file - Args: "http://www-dev.totalauto.com/" 
+13:39:11.484 INFO  open-file - Args: "https://cms.totalauto.com" 
+13:41:13.229 INFO  open-file - Args: "http://www-dev.totalauto.com/" 
+13:49:45.946 INFO  open-file - Args: "https://dev.azure.com/totalauto/" 
+13:59:05.991 INFO  open-file - Args: "https://cms.totalauto.com" 
+07:53:50.561 INFO  App running: http://localhost:4040 
+07:54:11.990 INFO  open-file - Args: "https://emergentcode.visualstudio.com/" 
+10:40:21.109 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+11:05:17.594 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+12:48:38.382 INFO  App running: http://localhost:4040 
+12:48:57.296 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+13:47:50.429 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/:w:/g/Admin/EbUHq8qalY5FlVSd1LktOtcBAWjIsFhLQwFiAjwKdkTjFQ?rtime=e0FTozI62Ug" 
+13:48:03.246 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+08:15:11.370 INFO  App running: http://localhost:4040 
+09:04:30.273 INFO  App running: http://localhost:4040 
+10:06:45.399 INFO  App running: http://localhost:4040 
+10:18:16.786 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+07:45:03.889 INFO  App running: http://localhost:4040 
+08:04:12.413 INFO  open-file - Args: "https://bitbucket.org/livinggroup/hausfeld/src/master/" 
+10:31:42.200 INFO  App running: http://localhost:4040 
+10:40:26.070 INFO  App running: http://localhost:4040 
+10:42:43.059 INFO  getIcon 
+10:45:50.492 INFO  App running: http://localhost:4040 
+10:45:54.156 ERROR Icon Extractor Error: "Error: spawn C:\\Repos\\Mindful\\dist\\bin\\IconExtractor.exe ENOENT" 
+10:46:06.149 INFO  getIcon 
+10:47:13.225 INFO  getIcon 
+12:32:03.687 INFO  App running: http://localhost:4040 
+12:36:28.804 INFO  App running: http://localhost:4040 
+12:56:14.308 INFO  App running: http://localhost:4040 
+13:02:48.785 INFO  App running: http://localhost:4040 
+13:05:07.439 INFO  App running: http://localhost:4040 
+13:23:14.683 INFO  App running: http://localhost:4040 
+13:25:29.576 INFO  App running: http://localhost:4040 
+13:31:24.793 INFO  App running: http://localhost:4040 
+14:15:51.266 INFO  App running: http://localhost:4040 
+14:33:09.097 INFO  App running: http://localhost:4040 
+14:42:30.578 INFO  App running: http://localhost:4040 
+14:43:15.935 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\Downloads\\NDepend_2021.1.0.9500\\VisualNDepend.exe" 
+14:43:37.149 INFO  open-file - Args: "http://assets.emergentsoftware.io/login" 
+14:59:49.371 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\Downloads\\SolarWinds-FT-Port_Scanner-2020.4\\portscanner.exe" 
+15:00:36.159 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\Downloads\\SolarWinds-FT-Port_Scanner-2020.4\\portscanner.exe" 
+15:00:36.243 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\Downloads\\SolarWinds-FT-Port_Scanner-2020.4\\portscanner.exe" 
+15:03:28.469 INFO  elevate - Args: ["C:\\Users\\JamesDeMeuse\\Downloads\\SolarWinds-FT-Port_Scanner-2020.4\\portscanner.exe"] 
+15:03:28.487 INFO  Couldn't elevate, exit code ENOENT
+{"description":"spawn C:\\Repos\\Mindful\\bin\\elevate-x64.exe ENOENT"}
+Error: Couldn't elevate, exit code ENOENT
+    at C:\Repos\Mindful\dist\app-launcher.js:3541:28
+    at exithandler (child_process.js:319:5)
+    at ChildProcess.errorhandler (child_process.js:331:5)
+    at ChildProcess.emit (events.js:315:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:273:12)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) 
+07:49:56.051 INFO  App running: http://localhost:4040 
+10:35:45.537 INFO  open-file - Args: "https://balsamiq.cloud/s6fsxsj/pk1j7o2/r74BF" 
+10:44:54.179 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+13:45:18.753 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+12:20:35.623 INFO  App running: http://localhost:4040 
+07:47:33.137 INFO  App running: http://localhost:4040 
+09:25:21.413 INFO  App running: http://localhost:4040 
+11:00:11.745 INFO  App running: http://localhost:4040 
+11:05:18.132 INFO  App running: http://localhost:4040 
+11:24:15.492 INFO  App running: http://localhost:4040 
+11:35:57.851 INFO  App running: http://localhost:4040 
+13:30:19.232 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+13:30:56.684 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+13:00:07.039 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+13:29:20.928 INFO  open-file - Args: "C:\\Program Files\\TeamViewer\\TeamViewer.exe" 
+09:01:54.454 INFO  App running: http://localhost:4040 
+13:17:50.825 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+08:07:06.837 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Emergent%20Software/SharePoint/Forms/AllItems.aspx?id=%2FEmergent%20Software%2FSharePoint%2FDevelopment%2FRoles%20and%20Job%20Descriptions&p=true&originalPath=aHR0cHM6Ly9lbWVyZ2VudHNvZnR3YXJlLnNoYXJlcG9pbnQuY29tLzpmOi9nL0VtZXJnZW50JTIwU29mdHdhcmUvRW5lQ08wSXJ2NGhOdWQ2blg5b29WSnNCNFJ0MUhBVUlWcklsLXc4NkxtckZWUT9ydGltZT1YMXpBeEpGbzJVZw" 
+08:17:04.556 INFO  App running: http://localhost:4040 
+21:19:02.550 INFO  App running: http://localhost:4040 
+07:53:13.164 INFO  App running: http://localhost:4040 
+09:12:51.380 INFO  App running: http://localhost:4040 
+13:56:21.357 INFO  open-file - Args: "https://alarmadmin.alarm.com/webservices/CustomerManagement.asmx?op=GetEventHistory" 
+13:59:40.633 INFO  open-file - Args: "https://answers.alarm.com/ADC/Partner/Partner_Tools_and_Services/Growth_and_Productivity_Services/Integrations/Alarm.com_Web_Services/GetEventHistory" 
+14:03:14.566 INFO  open-file - Args: "https://alarmadmin.alarm.com/webservices/CustomerManagement.asmx?op=EditUserCode" 
+15:12:36.643 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+09:52:04.860 INFO  App running: http://localhost:4040 
+11:15:36.564 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+13:21:32.462 INFO  open-file - Args: "https://emergentsoftware-my.sharepoint.com/:x:/g/personal/tomh_emergentsoftware_net/EXxRN4ZQ3LJDmzk7Jyc_xncBERZJNXv72VRieI0ltqL2vw?e=X55Dk5" 
+15:34:26.296 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+09:59:23.941 INFO  App running: http://localhost:4040 
+09:59:41.621 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+11:10:08.399 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/Admin/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200087A9DD3A6DABD749802BDEC90986DE58&viewid=c92f3016%2Da699%2D4024%2Db66b%2D9dc9e2f8fcfe&id=%2FAdmin%2FShared%20Documents%2FRecruiting%2FSoftware%20Development%2FInterview%20Materials%20Share%20Folder" 
+08:00:17.677 INFO  App running: http://localhost:4040 
+14:57:55.643 INFO  open-file - Args: "https://staging2.skidpro.com/product/industrial-brush-cutter-open-front/" 
+10:18:46.702 INFO  open-file - Args: "https://emergentsoftware.sharepoint.com/:x:/g/Emergent%20Software/EZYD8Lh86iJGjoILxLGvpiIBR_x3pbX6KqeIQvzo1EZ_5w?rtime=SsKla_712Eg" 
+10:18:56.421 INFO  open-file - Args: "https://web.microsoftstream.com/video/fa07bbc7-81ee-4c7a-a1d3-5df9cce948dc" 
+10:19:05.533 INFO  open-file - Args: "https://balsamiq.cloud/s6fsxsj/pk1j7o2/r74BF" 
+14:44:18.046 INFO  App running: http://localhost:4040 
+14:55:56.947 INFO  open-file - Args: "https://balsamiq.cloud/s6fsxsj/pk1j7o2/r74BF" 
+11:08:21.318 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+14:58:15.039 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+15:04:51.753 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+07:49:03.714 INFO  App running: http://localhost:4040 
+07:50:08.169 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+08:28:44.640 INFO  App running: http://localhost:4040 
+08:32:04.191 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+10:01:03.002 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+10:03:16.140 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+11:59:11.738 INFO  App running: http://localhost:4040 
+12:01:30.522 INFO  App running: http://localhost:4040 
+12:05:04.435 INFO  App running: http://localhost:4040 
+12:09:30.055 INFO  App running: http://localhost:4040 
+14:04:26.272 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+08:54:31.407 INFO  App running: http://localhost:4040 
+08:55:19.806 INFO  open-file - Args: "https://dev.azure.com/tileshop/TileShop.com" 
+09:57:11.152 INFO  open-file - Args: "https://balsamiq.cloud/s6fsxsj/pk1j7o2/r74BF" 
+10:31:44.154 INFO  open-file - Args: "https://sitecore-stage.tileshop.io/" 
+14:04:29.690 INFO  open-file - Args: "https://balsamiq.cloud/s6fsxsj/pk1j7o2/r74BF" 
+14:06:46.422 INFO  open-file - Args: "C:\\Repos\\ArmorAlarms.Shared\\ArmorAlarms.Shared.sln" 
+14:09:39.340 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\AppData\\Local\\Zeplin\\Zeplin.exe" 
+07:06:25.200 INFO  App running: http://localhost:4040 
+10:36:47.837 INFO  open-file - Args: "https://sitecore-stage.tileshop.io/" 
+11:13:39.189 INFO  open-file - Args: "https://dev.azure.com/tileshop/TileShop.com" 
+11:29:09.329 INFO  open-file - Args: "https://dev.azure.com/tileshop/TileShop.com" 
+13:20:44.027 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+13:21:09.009 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+22:34:05.924 INFO  App running: http://localhost:4040 
+10:17:01.734 INFO  App running: http://localhost:4040 
+13:52:00.809 INFO  App running: http://localhost:4040 
+12:03:36.742 INFO  App running: http://localhost:4040 
+12:04:31.669 INFO  open-file - Args: "https://staging2.skidpro.com/product/industrial-brush-cutter-open-front/" 
+14:33:12.560 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+14:11:15.331 INFO  App running: http://localhost:4040 
+08:10:54.361 INFO  open-file - Args: "https://dev.azure.com/totalauto/" 
+11:25:26.326 INFO  open-file - Args: "https://dev.azure.com/totalauto/" 
+14:04:04.868 INFO  open-file - Args: "https://dev.azure.com/SkidPro/SkidPro" 
+14:08:57.668 INFO  open-file - Args: "https://stskidproattachmentsdev.z19.web.core.windows.net/#/" 
+14:09:07.922 INFO  open-file - Args: "https://staging2.skidpro.com/product/industrial-brush-cutter-open-front/" 
+14:33:21.400 INFO  open-file - Args: "https://app.diagrams.net/#G1W0DE7EsApxBErpjyE91_AEMFqxXPaUxX" 
+10:13:17.556 INFO  App running: http://localhost:4040 
+10:20:13.551 INFO  open-file - Args: "C:\\Users\\JamesDeMeuse\\Downloads\\ngrok-stable-windows-amd64 (3)\\ngrok.exe" 
+10:20:20.686 INFO  elevate - Args: ["C:\\Users\\JamesDeMeuse\\Downloads\\ngrok-stable-windows-amd64 (3)\\ngrok.exe"] 
+10:20:20.697 INFO  Couldn't elevate, exit code ENOENT
+{"description":"spawn C:\\Repos\\Mindful\\bin\\elevate-x64.exe ENOENT"}
+Error: Couldn't elevate, exit code ENOENT
+    at C:\Repos\Mindful\dist\app-launcher.js:3541:28
+    at exithandler (child_process.js:319:5)
+    at ChildProcess.errorhandler (child_process.js:331:5)
+    at ChildProcess.emit (events.js:315:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:273:12)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) 
+13:02:46.457 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+13:06:49.119 INFO  open-file - Args: "https://dev.azure.com/ArmorAlarms/Video%20Streaming%20Solution/_wiki/wikis/Video-Streaming-Solution.wiki/1/ArmorProxy-Service-Installation-Configuration" 
+11:18:46.543 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+14:11:01.849 INFO  App running: http://localhost:4040 
+14:28:31.400 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+12:31:09.251 INFO  App running: http://localhost:4040 
+12:31:59.608 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+07:43:07.245 INFO  App running: http://localhost:4040 
+14:48:02.419 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+08:18:57.023 INFO  App running: http://localhost:4040 
+08:23:20.055 INFO  open-file - Args: "https://dev.azure.com/armoralarms/" 
+14:43:25.929 INFO  App running: http://localhost:4040 
+09:06:30.979 INFO  App running: http://localhost:4040 
+09:12:10.930 INFO  open-file - Args: "http://intranet.koroffice.net/" 
+09:17:51.190 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+09:18:11.956 INFO  open-file - Args: "https://korterra.atlassian.net/wiki/spaces/PDQA/overview" 
+09:34:00.608 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
