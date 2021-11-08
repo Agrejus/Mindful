@@ -38,13 +38,18 @@ export const editors: IEditor[] = [
 ];
 
 export const render = (type: PageType, props: EditorProps): React.ReactNode | null => {
-    const editor = editors.find(w => w.type === type);
+    try {
+        const editor = editors.find(w => w.type === type);
 
-    if (!editor) {
+        if (!editor) {
+            return null;
+        }
+    
+        return editor.render(props);
+    } catch (ex) {
+        alert(ex)
         return null;
     }
-
-    return editor.render(props);
 }
 
 export const getDisplayName = (type: PageType) => {

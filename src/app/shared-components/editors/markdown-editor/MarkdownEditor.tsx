@@ -94,33 +94,43 @@ class MarkdownEditor extends React.Component<EditorProps, State> {
 
     highlight = (markdown: string) => {
 
-        let html = converter.makeHtml(markdown);
+        try {
+            let html = converter.makeHtml(markdown);
 
-        const matches = html.match(/<code[\s\S]*?<\/code>/g);
-
-        if (matches) {
-            matches?.forEach(w => {
-
-                const openingTagRegex = /<code(.)*?>/;
-                const innerHtml = w.replace("</code>", "").replace(openingTagRegex, "");
-
-                let language = "html";
-                const openingTagMatch = w.match(openingTagRegex);
-
-                if (openingTagMatch) {
-                    const classNameMatch = openingTagMatch[0].match(/class="(.)*?"/);
-
-                    if (classNameMatch) {
-                        const classNames = classNameMatch[0].replace("class=\"", "").replace("\"", "");
-                        language = classNames.split(' ')[0];
+            const matches = html.match(/<code[\s\S]*?<\/code>/g);
+    
+            if (matches) {
+                matches?.forEach(w => {
+    
+                    const openingTagRegex = /<code(.)*?>/;
+                    const innerHtml = w.replace("</code>", "").replace(openingTagRegex, "");
+    
+                    let language = "html";
+                    const openingTagMatch = w.match(openingTagRegex);
+    
+                    if (openingTagMatch) {
+                        const classNameMatch = openingTagMatch[0].match(/class="(.)*?"/);
+    
+                        if (classNameMatch) {
+                            const classNames = classNameMatch[0].replace("class=\"", "").replace("\"", "");
+                            language = classNames.split(' ')[0];
+                        }
                     }
-                }
-
-                html = html.replace(innerHtml, Prism.highlight(innerHtml, Prism.languages[language], language))
-            })
+    
+                    html = html.replace(innerHtml, Prism.highlight(innerHtml, Prism.languages[language], language))
+                })
+            }
+    
+            return this.decodeHtml(html);
+        } catch (e) {
+            return "MARKDOWN GENERATION ERROR";
         }
-
-        return html;
+    }
+    
+    decodeHtml = (html: string) => {
+        var txt = document.createElement("textarea");
+        txt.innerHTML = html;
+        return txt.value;
     }
 
     languagesCommand: Command = {
@@ -161,7 +171,7 @@ class MarkdownEditor extends React.Component<EditorProps, State> {
             >
                 <ul>
                     {
-                        Object.keys(Prism.languages).map(w => <li key={w}>{w}</li>)
+                        Object.keys(Prism.languages).sort().map(w => <li key={w}>{w}</li>)
                     }
                 </ul>
             </Modal>}

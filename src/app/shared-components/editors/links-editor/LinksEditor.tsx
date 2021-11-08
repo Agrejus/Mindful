@@ -6,7 +6,7 @@ import './LinksEditor.scss';
 import { IEditor } from '../Editors';
 import { PageType } from '../../../constants/Constants';
 import { MultiSelect, MultiSelectChangeEvent } from '@progress/kendo-react-dropdowns';
-import { uniq } from 'lodash';
+import { orderBy, uniq } from 'lodash';
 import { publishNotification } from '../../../services/notification-service';
 import { HoverExpandButton } from '../../buttons/HoverExpandButton';
 
@@ -19,9 +19,11 @@ interface State {
 }
 
 export interface ILink {
+    id: number;
     link: string;
     name: string;
-    tags: string[]
+    tags: string[];
+    timesOpened: number;
 }
 
 class LinksEditor extends React.PureComponent<EditorProps, State> {
@@ -47,8 +49,12 @@ class LinksEditor extends React.PureComponent<EditorProps, State> {
         this.setState({ editLinkIndex: null, isAddLinkModalVisible: false });
     }
 
-    onLinkClick = async (link: string) => {
-        services.fileService.openFile(link);
+    onLinkClick = async (link: ILink) => {
+        const links = this.props.content as ILink[];
+        const index = links.findIndex(w => w.id === link.id);
+        links[index].timesOpened++;
+        this.props.onChange(links);
+        services.fileService.openFile(link.link);
     }
 
     handleLinkDelete = (button: ButtonType) => {
@@ -91,10 +97,10 @@ class LinksEditor extends React.PureComponent<EditorProps, State> {
 
     render() {
         const links = (this.props.content || []) as ILink[];
-        const filteredLinks = links.filter(this.filterLinks);
+        const orderedLinks = orderBy(links, w => w.timesOpened, "desc")
+        const filteredLinks = orderedLinks.filter(this.filterLinks);
         let tags: string[] = [];
         const reduce = links.filter(w => w.tags && w.tags.length > 0).map(w => w.tags);
-
         if (reduce.length > 0) {
             tags = uniq(reduce.reduce((a, b) => a.concat(b)));
         }
@@ -129,10 +135,10 @@ class LinksEditor extends React.PureComponent<EditorProps, State> {
                 <div>
                     <h4>Links <small>({links.length})</small></h4>
                     {
-                        filteredLinks.map((w, i) => <div key={`app-${i}`} className="text-center card">
+                        filteredLinks.map((w, i) => <div key={`app-link-${i}`} className="text-center card">
                             <div className="card-name">
-                                <span className="clickable" onClick={() => this.onLinkClick(w.link)}>{w.name}</span>&nbsp;<i className="bi bi-pencil-square clickable" onClick={() => this.setState({ editLinkIndex: i })}></i><i className="bi bi-files clickable" onClick={() => this.onCopyClick(w)}></i>
-                                <a title={w.link} className="clickable link" onClick={() => this.onLinkClick(w.link)}>{w.link}</a>
+                                <span className="clickable" onClick={() => this.onLinkClick(w)}>{w.name}</span>&nbsp;<i className="bi bi-pencil-square clickable" onClick={() => this.setState({ editLinkIndex: i })}></i><i className="bi bi-files clickable" onClick={() => this.onCopyClick(w)}></i>
+                                <a title={w.link} className="clickable link" onClick={() => this.onLinkClick(w)}>{w.link}</a>
                             </div>
                             <i className="bi bi-x clickable card-close" onClick={() => this.setState({ deleteLinkIndex: i })}></i>
                             <div className="card-actions">
@@ -150,6 +156,7 @@ class LinksEditor extends React.PureComponent<EditorProps, State> {
                 tags={tags}
                 onClose={() => this.setState({ isAddLinkModalVisible: false })}
                 onSuccess={this.onAddEditLink}
+                nextId={links.length + 1}
             />}
             {this.state.deleteLinkIndex != null && <Modal
                 buttons={["Yes", "Cancel"]}
@@ -163,6 +170,7 @@ class LinksEditor extends React.PureComponent<EditorProps, State> {
                 onClose={() => this.setState({ editLinkIndex: null })}
                 onSuccess={this.onAddEditLink}
                 link={links[this.state.editLinkIndex]}
+                nextId={links.length + 1}
             />}
         </div>
     }
@@ -173,12 +181,15 @@ interface AddLinkModalProps {
     onSuccess: (link: ILink) => void;
     tags: string[];
     link?: ILink;
+    nextId:number;
 }
 
 interface AddLinkModalState {
     link: string;
     name: string;
     tags: string[];
+    timesOpened: number;
+    currentOrNextId:number;
 }
 
 class AddEditLinkModal extends React.PureComponent<AddLinkModalProps, AddLinkModalState> {
@@ -186,7 +197,9 @@ class AddEditLinkModal extends React.PureComponent<AddLinkModalProps, AddLinkMod
     state: AddLinkModalState = {
         name: this.props.link?.name ?? "",
         link: this.props.link?.link ?? "",
-        tags: this.props.link?.tags ?? []
+        tags: this.props.link?.tags ?? [],
+        timesOpened: this.props.link?.timesOpened ?? 0,
+        currentOrNextId: this.props.link?.id ?? this.props.nextId
     }
 
     onClick = (button: ButtonType) => {
@@ -198,7 +211,9 @@ class AddEditLinkModal extends React.PureComponent<AddLinkModalProps, AddLinkMod
         this.props.onSuccess({
             name: this.state.name,
             link: this.state.link,
-            tags: this.state.tags
+            tags: this.state.tags,
+            timesOpened: this.state.timesOpened,
+            id: this.state.currentOrNextId
         });
     }
 

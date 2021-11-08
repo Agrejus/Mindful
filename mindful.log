@@ -172,3 +172,102 @@ Error: Couldn't elevate, exit code ENOENT
 09:17:51.190 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
 09:18:11.956 INFO  open-file - Args: "https://korterra.atlassian.net/wiki/spaces/PDQA/overview" 
 09:34:00.608 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+09:39:08.482 INFO  App running: http://localhost:4040 
+09:39:52.929 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+09:40:21.055 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+10:50:24.496 INFO  App running: http://localhost:4040 
+11:52:48.024 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+15:40:27.436 INFO  App running: http://localhost:4040 
+08:11:39.477 INFO  App running: http://localhost:4040 
+12:34:06.654 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+11:22:05.010 INFO  App running: http://localhost:4040 
+12:18:31.632 INFO  App running: http://localhost:4040 
+09:04:02.853 INFO  App running: http://localhost:4040 
+09:04:12.785 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+12:56:56.129 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+14:50:12.284 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+14:54:03.659 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+22:36:06.154 INFO  App running: http://localhost:4040 
+08:21:54.885 INFO  App running: http://localhost:4040 
+08:22:13.389 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+07:52:16.432 INFO  App running: http://localhost:4040 
+08:34:14.672 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+09:03:04.348 INFO  App running: http://localhost:4040 
+09:05:09.937 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+10:13:42.300 INFO  App running: http://localhost:4040 
+10:14:13.624 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+14:05:27.043 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+07:41:29.845 INFO  App running: http://localhost:4040 
+07:42:07.646 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+09:56:41.074 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:00:57.892 INFO  App running: http://localhost:4040 
+08:04:47.448 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+15:42:53.939 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+09:43:18.031 INFO  App running: http://localhost:4040 
+08:09:09.415 INFO  App running: http://localhost:4040 
+08:42:31.032 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+11:59:21.551 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+12:27:49.188 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+12:29:33.078 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+15:51:11.508 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+07:49:43.803 INFO  App running: http://localhost:4040 
+07:55:41.220 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+07:55:45.833 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+07:59:49.655 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:01:52.065 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:02:30.255 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+08:03:37.244 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:08:33.132 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+08:08:40.696 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+08:09:09.466 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+08:09:14.396 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+08:09:53.818 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+08:14:20.013 INFO  open-file - Args: "https://miro.com/app/board/o9J_lBU7-zU=/" 
+08:15:52.141 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+08:15:56.084 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+10:37:28.913 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+13:50:37.908 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+13:54:52.199 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:04:38.300 INFO  App running: http://localhost:4040 
+08:04:53.642 INFO  open-file - Args: "https://people.zoho.com/" 
+08:36:20.027 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:37:29.724 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+08:41:23.237 INFO  open-file - Args: "http://intranet.koroffice.net/human-resources-2/" 
+08:48:00.381 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+09:26:49.100 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+14:55:35.917 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+08:53:21.732 INFO  App running: http://localhost:4040 
+08:55:30.743 INFO  App running: http://localhost:4040 
+08:55:49.656 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+08:56:20.313 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+14:32:24.487 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+07:54:05.884 INFO  App running: http://localhost:4040 
+07:54:31.072 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+08:34:51.423 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+09:18:14.948 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+10:04:48.092 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+09:53:08.530 INFO  App running: http://localhost:4040 
+10:01:40.343 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+11:18:00.787 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+14:46:45.519 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+14:46:53.829 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+14:27:00.651 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+11:05:17.815 INFO  App running: http://localhost:4040 
+11:05:36.110 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+12:16:06.349 INFO  open-file - Args: "https://dev.azure.com/KorTerra/KorWeb%20Companion/_settings/agentqueues?queueId=69&view=agents" 
+14:49:06.863 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+19:39:15.617 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+20:20:54.902 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+20:58:52.076 INFO  App running: http://localhost:4040 
+20:59:15.504 INFO  open-file - Args: "https://dev.azure.com/KorTerra" 
+21:55:19.687 INFO  open-file - Args: "https://dev.azure.com/KorTerra/KorWeb%20Companion/_settings/agentqueues?queueId=69&view=agents" 
+09:41:02.564 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+09:57:40.520 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+10:01:09.075 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+10:35:26.174 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+14:14:38.670 INFO  open-file - Args: "https://bitbucket.org/dashboard/repositories" 
+16:11:03.442 INFO  open-file - Args: "https://dev.azure.com/KorTerra/KorWeb%20Companion/_settings/agentqueues?queueId=69&view=agents" 
+11:05:15.191 INFO  App running: http://localhost:4040 
+13:18:38.177 INFO  open-file - Args: "https://korterra.atlassian.net/secure/RapidBoard.jspa?rapidView=87&projectKey=PDO&view=planning.nodetail&issueLimit=100" 
+12:37:56.653 INFO  App running: http://localhost:4040 
+09:00:18.596 INFO  App running: http://localhost:4040 

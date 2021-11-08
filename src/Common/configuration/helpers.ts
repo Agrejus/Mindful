@@ -1,7 +1,7 @@
 /// <reference path="../../common-types.d.ts"/>
 import { Indexable } from "./indexable";
 
-export const mergeAndTranslateSettings = <T>(appSettings: T, environmentSettings: DeepPartial<T>): T => {
+export const mergeAndTranslateSettings = <T>(appSettings: T, environmentSettings: DeepPartial<T>): any => {
 
     let indexableAppSettings: Indexable = <any>appSettings;
     let indexableEnvironmentSettings: Indexable = <any>environmentSettings;
